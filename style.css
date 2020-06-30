@@ -228,7 +228,7 @@ footer {
   }
   /* index maingrid */
   #msg {
-    width: 350px;
+    width: 250px;
   }
 }
 @media screen and (max-width: 320px) {
