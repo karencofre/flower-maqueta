@@ -83,14 +83,14 @@ a {
 #msg {
   grid-area: msg;
   border: 2px solid var(--color-silver);
-  width: 450px;
+  width: 400px;
   height: 90px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  left: 50px;
+  /* left: 50px; */
   bottom: 30px;
 }
 #social-nets {
@@ -128,8 +128,8 @@ footer {
   align-items: center;
 }
 .about-container img {
-  width: 400px;
-  height: 500px;
+  width: 40%;
+  height: 45%px;
   margin: 0 15px 0 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -204,7 +204,10 @@ footer {
     background-repeat: repeat;
   }
   .about-container {
+    height: 90vh;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .about-container img {
     margin: 15px 0 15px 0;
