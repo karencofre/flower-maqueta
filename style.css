@@ -24,7 +24,7 @@ body {
       var(--color-3) 100%
     );
   background-repeat: no-repeat;
-  background-size: 100% 100vh;
+  background-size: 100vw 100vh;
   position: absolute;
   z-index: 1;
   width: 100vw;
